@@ -44,7 +44,7 @@ var uglify = require('gulp-uglify');
 var gulpIf = require('gulp-if');
 
 gulp.task('useref', function(){
-    return golp.src('app/*.html')
+    return gulp.src('app/*.html')
     .pipe(useref())
     //Minifies only if it's a JavaScript file
     .pipe(gulpIf('*.js', uglify()))
