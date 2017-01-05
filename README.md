@@ -1,4 +1,4 @@
-# GulpStarter
+# GulpStarter 
 Starter Pack for new projects for Gulp
 1. Must install Node and NPM, then Gulp to your local machine.
 2. Create your folder that your project will reside in.
